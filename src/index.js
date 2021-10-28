@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { CounterWithCustomHook,  } from './components/01-useState/CounterWithCustomHook';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CounterWithCustomHook />
   </React.StrictMode>,
   document.getElementById('root')
 );
