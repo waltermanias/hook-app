@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import { SimpleForm } from "./components/02-useEffect/simpleForm";
+import { FormWithCustomHook } from "./components/02-useEffect/FormWithCustomHook";
 
 ReactDOM.render(
   <React.StrictMode>
-    <SimpleForm />
+    <FormWithCustomHook />
   </React.StrictMode>,
   document.getElementById("root")
 );
