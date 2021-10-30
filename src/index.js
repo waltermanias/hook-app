@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {  Layout } from "./components/05-LayoutEffect/LayoutEffect";
+import { Memorize } from "./components/06-memos/Memorize";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-
 ReactDOM.render(
   <React.StrictMode>
-    <Layout />
+    <Memorize />
   </React.StrictMode>,
   document.getElementById("root")
 );
