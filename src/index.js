@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import {  Layout } from "./components/05-LayoutEffect/LayoutEffect";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import { MultipleCustomHooks } from "./components/03-examples/multipleCustoHooks";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <MultipleCustomHooks />
+    <Layout />
   </React.StrictMode>,
   document.getElementById("root")
 );
