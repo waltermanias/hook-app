@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { CallbackHook } from "./components/06-memos/CallbackHook";
 
+import { Padre } from "./components/07-tarea-memo/Padre";
 
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CallbackHook />
+    <Padre />
   </React.StrictMode>,
   document.getElementById("root")
 );
