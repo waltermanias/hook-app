@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import { FormWithCustomHook } from "./components/02-useEffect/FormWithCustomHook";
+import { MultipleCustomHooks } from "./components/03-examples/multipleCustoHooks";
 
 ReactDOM.render(
   <React.StrictMode>
-    <FormWithCustomHook />
+    <MultipleCustomHooks />
   </React.StrictMode>,
   document.getElementById("root")
 );
