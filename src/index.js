@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { Padre } from "./components/07-tarea-memo/Padre";
+import { TodoApp } from "./components/08-useReducer/TodoApp";
 
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Padre />
+    <TodoApp />
   </React.StrictMode>,
   document.getElementById("root")
 );
