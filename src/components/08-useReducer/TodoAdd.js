@@ -21,7 +21,6 @@ export const TodoAdd = ({ handleAddTodo }) => {
     handleAddTodo(newTodo);
 
     reset();
-    input.current.select();
   };
 
   return (

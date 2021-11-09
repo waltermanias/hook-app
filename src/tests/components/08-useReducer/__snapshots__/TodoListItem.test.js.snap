@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoListItem should render the component 1`] = `
+<li
+  className="list-group-item"
+  key="1"
+>
+  <p
+    className=""
+    onClick={[Function]}
+  >
+    2. test-desc
+  </p>
+  <button
+    className="btn btn-danger"
+    onClick={[Function]}
+  >
+    Borrar
+  </button>
+</li>
+`;

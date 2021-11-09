@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultipleCustomHooks should render the component 1`] = `
+<Fragment>
+  <h1>
+    Breaking Bad Quotes
+  </h1>
+  <hr />
+  <div
+    className="alert alert-info text-center"
+  >
+    Loading...
+  </div>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Next Quote
+  </button>
+</Fragment>
+`;
+
+exports[`MultipleCustomHooks should show the info 1`] = `
+<Fragment>
+  <h1>
+    Breaking Bad Quotes
+  </h1>
+  <hr />
+  <blockquote
+    className="blockquote text-right"
+  >
+    <p
+      className="mb-2"
+    >
+      test-quote
+    </p>
+    <footer
+      className="blockquote-footer"
+    >
+      test-author
+    </footer>
+  </blockquote>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Next Quote
+  </button>
+</Fragment>
+`;

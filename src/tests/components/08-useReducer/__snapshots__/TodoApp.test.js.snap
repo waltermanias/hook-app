@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoApp should render the component 1`] = `
+Array [
+  <h1>
+    Todo App 
+    <small>
+      (
+      0
+      )
+    </small>
+  </h1>,
+  <hr />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-7"
+    >
+      <ul
+        className="list-group list-group-flush"
+      />
+    </div>
+    <div
+      className="col-5"
+    >
+      Array [
+        <h4>
+          Agregar TODO
+        </h4>,
+        <hr />,
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            autoComplete="off"
+            className="form-control"
+            name="description"
+            onChange={[Function]}
+            placeholder="Aprender"
+            type="text"
+            value=""
+          />
+          <div
+            className="d-grid gap-2"
+          >
+            <button
+              className="btn btn-outline-primary mt-1"
+              type="submit"
+            >
+              Agregar
+            </button>
+          </div>
+        </form>,
+      ]
+    </div>
+  </div>,
+]
+`;
